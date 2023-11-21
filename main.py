@@ -1,4 +1,5 @@
 import argparse
+import asyncio
 import os
 import aiohttp
 from dotenv import load_dotenv
@@ -61,5 +62,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    import asyncio
     asyncio.run(main())
