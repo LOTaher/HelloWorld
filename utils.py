@@ -14,11 +14,11 @@ def get_file_extension(case):
         return "rb"
     elif case in ["go", "golang"]:
         return "go"
-    elif case == "rust":
+    elif case in ["rust", "rs"]:
         return "rs"
     elif case == "swift":
         return "swift"
-    elif case == "kotlin":
+    elif case in ["kotlin", "kt"]:
         return "kt"
     elif case == "php":
         return "php"
